@@ -1,0 +1,35 @@
+html {
+    background-color: #161616;
+}
+* {
+    margin: 2px;
+    padding: 7px;
+    font-style: normal;
+}
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh;
+    background-color: #363636;
+    outline-color: white;
+    outline-width: 10px;
+
+}
+h1 { 
+    color: white;
+    font-size: 360%;
+    grid-row: 1/2;
+    grid-column: auto;
+    
+}
+
+.left {
+    display: block;
+    margin: 50px;
+    grid-column: -4/-3;
+    grid-row: 2/3;
+    color: white;
+    
+}
+
+        
