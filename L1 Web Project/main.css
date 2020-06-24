@@ -9,11 +9,17 @@ html {
 .main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
     background-color: #363636;
     outline-color: white;
-    outline-width: 5px;
+    outline-width: 10px;
+    
+    
 
+}
+div main {
+    padding; 1401px 100px;
+    
 }
 h1 { 
     color: white;
