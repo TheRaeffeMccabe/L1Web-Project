@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+html {
+    background-color: #161616;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1 { 
+    display: block;
+    color: white;
+    font-size: 360%;
+    grid-row: 0/1;
+    grid-column: 1/8;
+    margin: 0px 20px;
+    border: 1px solid white;
+    background-color: #363636;
+
+
